@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Original Cinnamon roll</title>
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="creative.css" type="text/css">
+    <script src="main.js" type="text/javascript"></script>
+</head>
+
+
+<body>
+
+
+
+
+<div class="navbar">
+        <div class="brand">
+        <a href="index.html">Bun Bun Bake Shop</a>
+             
+        </div>
+        <div class="navbarmenu">
+       
+              <a href="menu.html" >MENU</a>
+              <a href="#story"  >OUR STORY</a>
+              <a href="#contact"  >CONTACT US</a>
+              <a href="cart.html">CART</a>    
+            
+        </div>
+</div>
+
+
+<section id="detail-page">
+   
+    <h2 id="heading" class= "section-heading"> Original Cinnamon roll</h2>
+    <a href="menu.html" class=  "back">Back to menu</a>
+    <img src="images/original.png" id="image" width="500">
+
+
+     <!--Carousal
+<div id="slider">
+        <ul id="slideWrap"> 
+            <li><img src="images/original.png" class="image" id=img1 width="500"/></li>
+            <li><img src="images/pack1.png" class="image" id=img2 width="500"/></li>
+            <li><img src="images/pack2.png" class="image" id=img3 width="500"/></li>
+        </ul>
+        <a id="prev" href="#">&#8810;</a>
+        <a id="next" href="#">&#8811;</a>
+     </div>
+     
+   Carousal ends-->
+
+  
+
+    <table class="table">
+     <tr>
+            <th> Cost </th>
+            <td id="cost">  $10. Free Shipping </td>
+
+        </tr>
+        <tr>
+            <th> Description </th>
+            <td id="description">Freshly baked delicious Cinnamon roll made with the 
+            finest cinnamons imported from Brazil in a traditional 20 year old recipe.</td>
+
+        </tr>
+
+        <tr>
+            <th> Ingredients </th>
+            <td>  Love, Cinnamon, Sugar, Dough </td>
+
+        </tr>
+
+
+        <tr>
+            <th> Quantity </th>
+            <td>  
+
+                <ul id="quantity" >
+                    <li>
+                        <input type="radio" name="amount" id="individual" checked="checked"  />
+                        <label for="individual">Single</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="pack1" name="amount"  />
+                        <label for="pack1">6-pack</label>
+                    </li>
+                    <li>
+                        <input type="radio"  id="pack2" name="amount"   />
+                        <label for="pack2">12-pack</label>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+
+        
+        <tr>
+            <th> Flavors </th>
+            <td> 
+
+                <form >
+                    <div class="multiselect" >
+                        <div class="selectBox"" >
+                           <select id="mySelect" disabled="true">
+                              <option>Select upto two other flavours</option>
+                           </select>
+
+                          
+                          <div class="overSelect"></div>
+                          </div> 
+
+                        <div id="flavourlist">
+                            <label for="one">
+                            <input  class="checkbox"  type="checkbox" value="flavor1"  />Carrot Cake </label>
+                            <label for="two">
+                            <input class="checkbox"  type="checkbox" value="flavor2" />Maple Apple Pecan</label>
+                            <label for="three">
+                            <input class="checkbox"  type="checkbox"  value="flavor3"/>Caramel Pecan</label>
+                            <label for="four">
+                            <input class="checkbox" type="checkbox" value="flavor4" />Birthday Cake</label>
+                            <label for="five">
+                            <input class="checkbox"  type="checkbox"  value="flavor5"/>Blackberry</label>
+                            <label for="six">
+                            <input class="checkbox" type="checkbox" value="flavor6" />Walnut</label>
+                        </div>
+                      </div>
+                </form>
+             </td>
+
+        </tr>
+
+
+        <tr>
+            <th></th>
+            <td id="selected" >  You have selected </td>
+
+        </tr>
+
+        <tr>
+            <th></th>
+            <td> <button id="addtocart"> Add to Cart </button>
+                <button id="wishlist"> Save to Wishlist </button>
+            </td>
+
+        </tr>
+
+
+    </table>
+
+
+                <script type="text/javascript">
+                
+                </script> 
+
+
+
+    <div id="slider"> 
+        <h2 id=carousal-heading>Similar Cinnamon Rolls </h2>
+            <ul id="slideWrap"> 
+                    
+                    <li class="slide">
+                            <div class="menuimg detail-page-img" >
+                            <img src="images/7.jpg" >
+                            <p class="menu-item"> Carrot   Cake</p> 
+                            </div>
+
+                            <div class="menuimg detail-page-img">
+                            <img src="images/8.jpg" >
+                            <p class="menu-item"> Cranberry</p> 
+                            </div>
+                            
+                            <div class="menuimg detail-page-img">
+                            <img src="images/1.jpg"  >
+                            <p class="menu-item"> Bacon</p> 
+                            </div>
+
+                    </li>
+                    
+                    <li class="slide">
+                            <div class="menuimg detail-page-img" >
+                            <img src="images/2.jpg">
+                            <p class="menu-item"> Original Cinnamon roll</p> 
+                            </div>
+
+                            <div class="menuimg detail-page-img" >
+                            <img src="images/9.jpg">
+                            <p class="menu-item"> Original (Vegan)</p> 
+                            </div>
+                    
+
+                            <div class="menuimg detail-page-img" >
+                            <img src="images/13.jpg">
+                            <p class="menu-item"> Original (Gluten-free) </p> 
+                            </div>
+                    </li>
+
+                    <li class="slide">
+                            <div class="menuimg detail-page-img" >
+                            <img src="images/15.jpg" >
+                            <p class="menu-item"> Maple   Apple Pecan</p> 
+                            </div>
+
+                            <div class="menuimg detail-page-img">
+                            <img src="images/16.jpg" >
+                            <p class="menu-item"> Caramel Pecan</p> 
+                            </div>
+                            
+                            <div class="menuimg detail-page-img " >
+                            <img src="images/3.jpg">
+                            <p class="menu-item"> Birthday Cake</p> 
+                            </div>
+                   </li>
+
+
+            </ul>
+           
+            <a id="prev" href="#">&#8810;</a>
+            <a id="next" href="#">&#8811;</a>
+    </div>
+
+  
+
+
+    
+</section>
+
+</body>
+</html>
